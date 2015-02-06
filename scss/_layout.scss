@@ -163,8 +163,49 @@ h1, h2, h3, h4, h5, h5 {
     }
 }
 
+// Chart
+#outer{
+    padding-top: 2em;
+}
 
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
 
+.component {
+    fill: $white;
+}
+
+.arc {
+    stroke-weight:0.1;
+    fill: $primary;
+}
+
+// .arc2 {fill: $filter;}
+
+.label {
+    font-family: 'NeoSans', sans-serif;
+    text-anchor: middle;
+}
+
+.radial-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+#outer {
+    background:#FFFFFF;
+    border-radius: 5px;
+    color: #000;
+}
+
+.radial {
+    border-radius: 3px;
+    background: #FFFFFF;
+    color: #000;
+
+}
 
 
 
