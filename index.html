@@ -18,10 +18,10 @@
 
     <div id="header">
       <div class="row">
-        <div class="large-6 medium-6 columns">
-          <h3>SIMULADOR DE TRÁFICO MÓVIL</h3>
+        <div class="large-7 columns">
+          <h3><img src="images/logo.png" title="VTR"> SIMULADOR DE TRÁFICO MÓVIL</h3>
         </div>
-        <div class="large-6 medium-6 columns">
+        <div class="large-5 columns">
           <p>Te ayudamos a realizar una estimación de tu consumo de datos móviles en reproducción de videos, música, emails, etc.</p>
         </div>
       </div>
@@ -41,7 +41,7 @@
           <div class="panel">
 
             <div class="row">
-              <p>Emails con/sin adjunto</p>
+              <p class="label-slider">Emails con/sin adjunto</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput1; start: 0; end: 100;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="row">
-              <p>Navegar en la web</p>
+              <p class="label-slider">Navegar en la web</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput2; start: 0; end: 120;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="row">
-              <p>Post en Redes sociales </p>
+              <p class="label-slider">Post en Redes sociales </p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput3; start: 0; end: 100;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="row">
-              <p>Streaming/descarga de música</p>
+              <p class="label-slider">Streaming/descarga de música</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput4; start: 0; end: 120;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -93,7 +93,7 @@
             </div>
 
             <div class="row">
-              <p>Descarga y uso de Apps</p>
+              <p class="label-slider">Descarga y uso de Apps</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput5; start: 0; end: 5;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -103,10 +103,11 @@
               <div class="small-3 medium-3 large-3 columns">
                 <span id="sliderOutput5"></span><span>Apps</span>
               </div>
+
             </div>
 
             <div class="row">
-              <p>Video llamadas</p>
+              <p class="label-slider">Video llamadas</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput6; start: 0; end: 120;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -116,10 +117,11 @@
               <div class="small-3 medium-3 large-3 columns">
                 <span id="sliderOutput6"></span><span>Minutos</span>
               </div>
+
             </div>
 
             <div class="row">
-              <p>Streaming/descarga de video</p>
+              <p class="label-slider">Streaming/descarga de video</p>
               <div class="small-9 medium-9 large-9 columns">
                 <div class="range-slider radius" data-slider="0" data-options="display_selector: #sliderOutput7; start: 0; end: 120;">
                   <span class="range-slider-handle" role="slider" tabindex=""></span>
@@ -135,17 +137,72 @@
         </div>
         <!-- end slider -->
         <div class="large-6 medium-6 columns">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h4 class="text-center">Resultado de tu consumo estimado mensual </h4>
+
+          <p class="small-text-center">Recuerda que el resultado es una estimación, y no corresponde a un cálculo exacto de tu consumo de datos en tu smartphone.</p>
+          <p class="text-center"><a href="#" class="button small radius">Ver planes multimedia</a></p>
+          <p class="text-center"><a href="#">Reiniciar la estimación</a></p>
         </div>
         <!-- end graphics -->
       </div>
     </div>
+    <!-- end #simulator -->
 
+    <div id="guide">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="panel">
+
+            <h4>Guía de consumo de datos por actividades</h4>
+            <p>Cuánto consumes de internet no sólo depende del tiempo que estés conectado, sino también de tu dispositivo y de las actividades que realices. Revisa esta guía para saber cuánto pesan las tareas que haces.</p>
+
+            <ul class="kind-loop inline-list">
+              <li>
+                <span><img src="images/internet.png"></span>
+                <span class="weight">180 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/chat.png"></span>
+                <span class="weight">400 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/mail.png"></span>
+                <span class="weight">520 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/music.png"></span>
+                <span class="weight">1.280 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/video.png"></span>
+                <span class="weight">3.072 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/app.png"></span>
+                <span class="weight">25.600 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+              <li>
+                <span><img src="images/video_chat.png"></span>
+                <span class="weight">30.720 KB</span>
+                <span class="detail">1 Email con/sin adjunto</span>
+              </li>
+            </ul>
+
+            <div class="clearfix">
+              <span class="left small-text">Tareas más livianas</span><span class="right small-text">Tareas más pesadas</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end guide -->
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

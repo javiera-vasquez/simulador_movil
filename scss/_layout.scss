@@ -26,7 +26,7 @@ $smoke: #eee;
 $filter: #66acb3;
 $slider: #b9d26b;
 $column: #f2f2f2;
-$border: #ccc;
+$border: #e3e3e3;
 
 // Alerts
 $good: #3BA656;
@@ -77,15 +77,20 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 #header {
-    padding: 1em 0 0.5em;
+    padding: 1em 0;
     background-color: $header;
     h3, p {
         color: $white;
-        margin-bottom: 0.5em;
+        margin-bottom: 0;
     }
     p {
         font-size: rem-calc(14);
         line-height: 1.5;
+        margin-top: 5px;
+    }
+    img {
+        height: 45px;
+        margin-right: 15px;
     }
 }
 
@@ -101,11 +106,12 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 #simulator {
+    margin-bottom: 2em;
     h4  {
         color: $header-2lvl;
         font-size: rem-calc(18);
     }
-    p {
+    p.label-slider {
         color: $secondary;
         margin-bottom: 0;
         margin-left: 0.9375rem;
@@ -115,12 +121,47 @@ h1, h2, h3, h4, h5, h5 {
         font-size: rem-calc(14);
         &:first-child {margin-right: 5px;}
     }
-    .range-slider {
-        margin: 0.65rem 0;
+    hr {margin: 0 0.5em 1em;}
+    .button.small {
+        margin-bottom: 0;
+        font-size: rem-calc(14);
     }
+    .range-slider {margin: 0.65rem 0 1em;}
 }
 
-
+#guide {
+    .panel {background-color: $column;}
+    h4  {
+        color: $header-2lvl;
+        font-size: rem-calc(18);
+    }
+    .small-text {
+        font-size: rem-calc(13);
+        color: $header-2lvl;
+    }
+    .kind-loop {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        li {
+            width: 14.28571428571429%;
+            text-align: center;
+            margin: 0;
+            img {
+                width: 40px;
+                margin-bottom: 10px;
+            }
+            .weight{
+                font-size: rem-calc(13);
+                margin-bottom: 15px;
+            }
+            .detail {
+                color: $secondary;
+                font-size: rem-calc(14);
+                line-height: 1.3;
+            }
+        }
+    }
+}
 
 
 
