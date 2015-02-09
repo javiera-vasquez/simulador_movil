@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5, h5 {
         color: $secondary;
         margin-bottom: 0;
         margin-left: 0.9375rem;
+        img {
+            margin-right: 5px;
+            height: 20px;
+        }
     }
     span {
         color: $primary;
@@ -169,12 +173,12 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 .background {
-    fill: #FFFFFF;
+    fill: $white;
     fill-opacity: 0.01;
 }
 
 .component {
-    fill: $white;
+    fill: $column;
 }
 
 .arc {
