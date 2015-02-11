@@ -168,6 +168,20 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 // Chart
+#main {
+    width: 318px;
+    height: 318px;
+    margin: 0 auto 20px;
+    background: $filter;
+    border-radius: 100%;
+}
+
+#create-graph {
+    position: absolute;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
 #outer{
     padding-top: 2em;
 }
@@ -189,6 +203,7 @@ h1, h2, h3, h4, h5, h5 {
 // .arc2 {fill: $filter;}
 
 .label {
+    fill: $white;
     font-family: 'NeoSans', sans-serif;
     text-anchor: middle;
 }

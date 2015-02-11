@@ -21,7 +21,7 @@ function start() {
             // .label("RADIAL 1")
             .onClick(onClick1)
             .diameter(350)
-            .value(75)
+            .value(55)
             .render();
 
 }

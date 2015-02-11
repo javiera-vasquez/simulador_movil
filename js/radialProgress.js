@@ -70,7 +70,7 @@ function radialProgress(parent) {
 
 
             var background = enter.append("g").attr("class","component")
-                .attr("cursor","pointer")
+                .attr("cursor","deafault")
                 .on("click",onMouseClick);
 
 
@@ -108,14 +108,13 @@ function radialProgress(parent) {
                 .attr("transform", "translate(" + _width/2 + "," + _width/2 + ")")
                 .attr("d", _arc2);
 
-
             enter.append("g").attr("class", "labels");
             var label = svg.select(".labels").selectAll(".label").data(data);
             label.enter().append("text")
                 .attr("class","label")
                 .attr("y",_width/2+_fontSize/3)
                 .attr("x",_width/2)
-                .attr("cursor","pointer")
+                .attr("cursor","default")
                 .attr("width",_width)
                 // .attr("x",(3*_fontSize/2))
                 .text(function (d) { return Math.round((_value-_minValue)/(_maxValue-_minValue)*100) + "%" })
@@ -164,7 +163,7 @@ function radialProgress(parent) {
 
         return function(t) {
             _currentValue = i(t);
-            this.textContent = Math.round(i(t)) + "";
+            this.textContent = Math.round(i(t)) + "GB";
         }
     }
 
